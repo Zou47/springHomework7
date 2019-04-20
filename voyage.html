@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VOYAGE</title>
+    <link rel="stylesheet" type="text/css" href="voyage.css">
+    <script type="text/javascript">
+        //引入flexible.min.js
+        !function (e, t) { function n() { var n = l.getBoundingClientRect().width; t = t || 540, n > t && (n = t); var i = 100 * n / e; r.innerHTML = "html{font-size:" + i + "px;}" } var i, d = document, o = window, l = d.documentElement, r = document.createElement("style"); if (l.firstElementChild) l.firstElementChild.appendChild(r); else { var a = d.createElement("div"); a.appendChild(r), d.write(a.innerHTML), a = null } n(), o.addEventListener("resize", function () { clearTimeout(i), i = setTimeout(n, 300) }, !1), o.addEventListener("pageshow", function (e) { e.persisted && (clearTimeout(i), i = setTimeout(n, 300)) }, !1), "complete" === d.readyState ? d.body.style.fontSize = "16px" : d.addEventListener("DOMContentLoaded", function (e) { d.body.style.fontSize = "16px" }, !1) }(2000, 2000);
+    </script>
+
+</head>
+
+<body>
+    <!-- 总体 -->
+    <div id="container">
+        <!-- 顶部 -->
+        <div id="top">
+            <div id="topBox">
+                <div id="agent">
+                    <img id="peopleImg" src="./img/people.png">
+                    Agent Login
+                </div>
+                <div id="customer">
+                    <img id="peopleImg" src="./img/people.png">
+                    Customer Login
+                </div>
+                <div id="notMember">
+                    <img id="paperImg" src="./img/paper.png">
+                    Not a Member?<span>Register</span>
+                </div>
+                <div id="callUs">
+                    Call Us Now:815-123-4567
+                </div>
+                <div id="fb">
+                    <img id="fbImg" src="./img/fb.png">
+                </div>
+                <div id="twiter">
+                    <img id="twiterImg" src="./img/twiter.png">
+                </div>
+                <div id="t">
+                    <img id="tImg" src="./img/t.png">
+                </div>
+                <div id="print">
+                    <img id="printImg" src="./img/print.png">
+                </div>
+            </div>
+        </div>
+
+
+        <div id="nav">
+            <img id="voyageImg" src="./img/Voyage.png">
+            <div id="home">HOME</div>
+            <div id="destinations">DESTINATIONS</div>
+            <div id="criuses">CRIUSES</div>
+            <div id="specials">SPECIALS</div>
+            <div id="holidays">HOLIDAYS</div>
+            <div id="blog">BLOG</div>
+            <div id="search">
+                <img id="searchImg" src="./img/search.png">
+            </div>
+        </div>
+
+        <div id="banner">
+            <div id="arrowLeft">
+                <img src="./img/left.png">
+            </div>
+            <div id="arrowRight">
+                <img src="./img/right.png">
+            </div>
+            <div id="bannerText">
+                <p id="bigText">TO TRAVEL IS TO LIVE</p>
+                <p id="smallText">You Don't Need Magic to Disappear. All you need is a destination.</p>
+                <div id="buttonBox">
+                    <div id="showBox">SHOW ON THE MAP</div>
+                    <div id="moreBox">MORE INFO</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="packBox">
+            <div id="findHolidays">
+                FIND YOUR <span>HOLIDAYS</span>
+            </div>
+            <img id="line" src="./img/line.png">
+            <div class="searchPlace">
+                <span>Where</span>
+                <input type="test" placeholder="distination">
+            </div>
+            <div class="searchPlace">
+                <span>When</span>
+                <input type="test" placeholder="distination">
+            </div>
+            <div id="subButton">Search</div>
+        </div>
+
+        <div id="imgBox">
+            <div id="imgTitle">
+                <p id="imgBigTitle">SPECIAL OFFERS</p>
+                <p id="imgSmallTitle">Best 2014 packages where people love to stay!</p>
+            </div>
+
+            <div id="imgGrid">
+                <img id="aImg" src="./img/1.png">
+                <img id="bImg" src="./img/2.png">
+                <img id="cImg" src="./img/3.png">
+                <img id="dImg" src="./img/4.png">
+                <img id="eImg" src="./img/5.png">
+                <img id="fImg" src="./img/6.png">
+            </div>
+        </div>
+
+        <div id="typeBox">
+            <div id="typeBigTitle">HOLIDAYS TYPE</div>
+            <div id="typeSmallTitle">get explore your dream to travel the world!</div>
+            <div id="typeGrid">
+                <div id="cruise">
+                    <div class="imgDiv">
+                        <img src="./img/cruise.png">
+                    </div>
+                    <p class="imgP">cruise</p>
+                </div>
+                <div id="city">
+                    <div class="imgDiv">
+                        <img src="./img/city.png">
+                    </div>
+                    <p class="imgP">City Breaks</p>
+                </div>
+                <div id="honey">
+                    <div>
+                        <img src="./img/honeymoon.png">
+                    </div>
+                    <p>Honeymoon</p>
+                </div>
+                <div id="adventure">
+                    <div class="imgDiv">
+                        <img src="./img/adventure.png">
+                    </div>
+                    <p class="imgP">Adventure</p>
+                </div>
+                <div id="safari">
+                    <div class="imgDiv">
+                        <img src="./img/safari.png">
+                    </div>
+                    <p class="imgP">Safari</p>
+                </div>
+                <div id="beach">
+                    <div class="imgDiv">
+                        <img src="./img/beach.png">
+                    </div>
+                    <p class="imgP">Beach</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="happyBox">
+            <img src="./img/happy.png">
+        </div>
+
+        <div id="bottom">
+            <div id="bottomFlex">
+                <div id="newsletter">
+                    <p class="bottomBigTitle">Newsletter</p>
+                    <p id="bottomContent">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+                        molestie consequat, vel illum dolore.</p>
+                    <input type="text" placeholder="Subscribes...">
+                    <div id="button">GO</div>
+                </div>
+
+                <div id="latest">
+                    <p class="bottomBigTitle">Lastest News</p>
+                    <div id="news1">
+                        <img src="./img/photo1.png">
+                        <div>
+                            <span>Postformat Gallery: Multiple images
+                                <p>October 21, 2013 - 3:31 pm</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div id="news2">
+                        <img src="./img/photo2.png">
+                        <div>
+                            <span>Snowboarding is fun!
+                                <p>December 12, 2012 - 9:11 pm</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tags">
+                    <p class="bottomBigTitle">Tags</p>
+                    <div id="tagsFlex">
+                        <div class="tagsContent">Agent Login</div>
+                        <div class="tagsContent">Customer Login</div>
+                        <div class="tagsContent">Not a Member?</div>
+                        <div class="tagsContent">Contact</div>
+                        <div class="tagsContent">New Horizons</div>
+                        <div class="tagsContent">Lanscape</div>
+                        <div class="tagsContent">Tags</div>
+                        <div class="tagsContent">Nice</div>
+                        <div class="tagsContent">Some</div>
+                        <div class="tagsContent">Portrait</div>
+                    </div>
+                </div>
+
+                <div id="address">
+                    <p class="bottomBigTitle">Address</p>
+                    <div id="addressText">
+                        DieSachbearbeiter Schönhauser Allee 167c,10435 Berlin Germany
+                        <p><span>E-mail:</span> moin@blindtextgenerator.de</p>
+                    </div>
+                    <div id="addressGrid">
+                        <img src="./img/fb.png" id="fbbImg">
+                        <img src="./img/twiter.png" id="twiterrImg">
+                        <img src="./img/t.png" id="tt">
+                        <img src="./img/print.png" id="printt">
+                    </div>
+                </div>
+            </div>
+
+            <div id="end">
+                <div id="endBig">
+                    Home :: Destinations :: Criuses :: Specils :: Holidays :: Blog :: Contact Us
+                </div>
+                <div id="endSmall">
+                    Copyright @voyage. All Right Reserved.
+                </div>
+                <img src="./img/top.png">
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
